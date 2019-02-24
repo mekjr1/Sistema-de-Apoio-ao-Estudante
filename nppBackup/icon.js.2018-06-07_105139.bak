@@ -1,0 +1,60 @@
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+/*Checkbox*/
+
+function field_focus(field, email)
+2
+  {
+3
+    if(field.value == email)
+4
+    {
+5
+      field.value = '';
+6
+    }
+7
+  }
+8
+​
+9
+  function field_blur(field, email)
+10
+  {
+11
+    if(field.value == '')
+12
+    {
+13
+      field.value = email;
+14
+    }
+15
+  }
+16
+​
+17
+//Fade in dashboard box
+18
+$(document).ready(function(){
+19
+    $('.box').hide().fadeIn(1000);
+20
+    });
+21
+​
+22
+//Stop click event
+23
+$('a').click(function(event){
+24
+    event.preventDefault(); 
+25
+  });

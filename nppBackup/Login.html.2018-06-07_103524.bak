@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset = "UTF-8"/>
+<title>SOBRE</title>
+<link rel ="stylesheet" type="text/css" href="estilo.css">
+  <script src="icon.js"></script>
+<style>
+</head>
+<body bgcolor="#E6E6FA">
+<form action="/action_page.php" target="_blank" method="GET">
+
+<div id="header" >
+<img src="capture1.jpg" width="1332" height="124" alt="Banner" id="img_banner_conteudo">
+
+
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="Index.html">Home</a>
+  <a href="Secretaria.html">Secretaria</a>
+  <a href="Capelania.html">Capelania</a>
+  <a href="Perguntas.html">Perguntas</a>
+  <a href="Sobre.html" class="active">Sobre</a>
+  <a href="Login.html">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <img src="nav-icon.png">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+
+<form method="post" action="index.html">
+<div class="box">
+<h1>Dashboard</h1>
+
+<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  
+<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  
+<a href="#"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+<a href="#"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+  
+</div> <!-- End Box -->
+  
+</form>
+
+<p>Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>
+
+<div id="footer">
+  <p>Posted by: Eloge Mukuta</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer></div>
+</form>
+</body>
+</html>
+  

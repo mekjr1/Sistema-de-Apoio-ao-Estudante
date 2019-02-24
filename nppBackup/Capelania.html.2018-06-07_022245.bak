@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width">
+<meta charset = "UTF-8"/>
+<title>Capelania</title>
+<link rel ="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body bgcolor="#E6E6FA">
+<form action="/action_page.php" target="_blank" method="GET">
+
+<div id="header">
+  <img src="capture1.jpg" width="1332" height="124" alt="Banner" id="img_banner_conteudo">
+
+</div>
+<div class="topnav">
+  <a href="Index.html">Home</a>
+  <a href="Secretaria.html">Secretaria</a>
+  <a class="active"href="Capelania.html">Capelania</a>
+  <a href="Perguntas.html">Perguntas</a>
+  <a href="Contacto.html">Contacto</a>
+  <a href ="Perfil.html">Perfil</a>
+  <a href="Sobre.html">Sobre</a>
+  <a href="Login.html">Login</a>
+</div>
+
+<aside id="sidebar">
+<div class="dark">
+<h3> Eventos Culturais</h3>
+  <img src="capture1.jpg" width="200" height="200">
+<p align="justify"> A Faculdade de Educação e Comunicação (FEG) da Universidade Católica de Moçambique (UCM) em Nampula acolheu nos dias 24 e 25 de Maio de 2018, no auditório da Faculdade o seminário sobre Desafios....
+</p>
+<h3> Encontros com o Capelão</h3>
+  <img src="capture1.jpg" width="200" height="200">
+
+<p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est pulvinar, laoreet quam ut, rhoncus magna. Suspendisse nulla turpis, porta eu tincidunt in, posuere id nisi. Aenean fringilla nulla dui, eu dignissim odio vehicula et. Morbi maximus sagittis tortor. Sed ante turpis, pellentesque in diam et, semper fermentum lectus. Nunc est magna, vehicula ut nisi et, suscipit pulvinar orci. Nunc at ex tempor, lobortis massa sit amet, tempus velit. Aenean sit amet nibh eget nulla molestie luctus.
+ <br>
+<a href="https://www.facebook.com/unicatmoz"> <img src="you.svg" width="50" height="50"></a>
+<a href="ucmonline@ucm.ac.mz"> <img src="gmail.svg" width="50" height="50"></a>
+<a href="https://www.facebook.com/unicatmoz"><img src="face.png" width="50" height="50" alt="Twitter Logo" class="social-icon"></a>
+
+</aside>
+</div>
+
+<section id="main">
+<div class="cacontainer">
+<article id="main-col">
+<center><h1 class="page-title"> Ajudamos o Estudante</h1></center>
+
+
+<p align="justify">   <center><img src="REGULAMENTO.jpg" width="300" height="200"></center>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est pulvinar, laoreet quam ut, rhoncus magna. Suspendisse nulla turpis, porta eu tincidunt in, posuere id nisi. Aenean fringilla nulla dui, eu dignissim odio vehicula et. Morbi maximus sagittis tortor. Sed ante turpis, pellentesque in diam et, semper fermentum lectus. Nunc est magna, vehicula ut nisi et, suscipit pulvinar orci. Nunc at ex tempor, lobortis massa sit amet, tempus velit. Aenean sit amet nibh eget nulla molestie luctus.
+</p>
+ </article>
+
+</div>
+</section>
+
+
+
+
+<div id="footer">
+  <p>Posted by: Eloge Mukuta</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer></div>
+</form>
+</body>
+</html>

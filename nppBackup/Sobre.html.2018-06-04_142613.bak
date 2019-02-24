@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width">
+<meta charset = "UTF-8"/>
+<title>SOBRE</title>
+<link rel ="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body bgcolor="#E6E6FA">
+<form action="/action_page.php" target="_blank" method="GET">
+
+<div id="header">
+  <h3>This is a heading in a div element</h3>
+  <p>This is some text in a div element.</p>
+</div>
+<div class="topnav">
+  <a href="Index.html">Home</a>
+  <a href="Secretaria.html">Secretaria</a>
+  <a href="Capelania.html">Capelania</a>
+  <a href="Perguntas.html">Perguntas</a>
+  <a href="Contacto.html">Contacto</a>
+  <a href ="Perfil.html">Perfil</a>
+  <a class="active" href="Sobre.html">Sobre</a>
+  <a href="Logout.html">Logout</a>
+</div>
+
+
+<section id="sobre" align="center">
+        <h2>SOBRE</h2>
+        <p class="sobre" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.</p>
+    </section>
+
+<div id="footer">
+  <p>Posted by: Eloge Mukuta</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+var products = [{
+  Code: 'A',
+  Price: 100.00,
+  Description: 'Large'
+}, {
+  Code: 'B',
+  Price: 125.00,
+  Description: 'X-Large'
+}, {
+  Code: 'C',
+  Price: 150.00,
+  Description: 'XX-Large'
+}, {
+  Code: 'D',
+  Price: 1000.00,
+  Description: 'WTF-Large'
+}];
+
+function RefreshProductInfo() {
+  var qty = parseInt($("#ddlQty").val());
+  var productCode = $("#Menu").val();
+  var items = $.grep(products, function(item) {
+    return item.Code === productCode;
+  });
+  if (items.length === 1) {
+    var product = items[0];
+  } else {
+    product = {
+      Price: 0.0
+    };
+  }
+  $("#lblPrice").text(product.Price.toFixed(2));
+  var cost = product.Price * qty;
+  $("#lblCost").text(cost.toFixed(2));
+}

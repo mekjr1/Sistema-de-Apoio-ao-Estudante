@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+2
+  font-family: 'Open Sans', sans-serif;
+3
+  background:#3498db;
+4
+  margin: 0 auto 0 auto;  
+5
+  width:100%; 
+6
+  text-align:center;
+7
+  margin: 20px 0px 20px 0px;   
+8
+}
+9
+​
+10
+p{
+11
+  font-size:12px;
+12
+  text-decoration: none;
+13
+  color:#ffffff;
+14
+}
+15
+​
+16
+h1{
+17
+  font-size:1.5em;
+18
+  color:#525252;
+19
+}
+20
+​
+21
+.box{
+22
+  background:white;
+23
+  width:300px;
+24
+  border-radius:6px;
+</style>
+
+</head>
+<body>
+
+2
+​
+3
+<form method="post" action="index.html">
+4
+<div class="box">
+5
+<h1>Dashboard</h1>
+6
+​
+7
+<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+8
+  
+9
+<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+10
+  
+11
+<a href="#"><div class="btn">Sign In</div></a> <!-- End Btn -->
+12
+​
+13
+<a href="#"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+14
+  
+15
+</div> <!-- End Box -->
+16
+  
+17
+</form>
+18
+​
+</body>
+</html>

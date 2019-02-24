@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset = "UTF-8"/>
+<title>Perguntas</title>
+<link rel ="stylesheet" type="text/css" href="estilo.css">
+<script src="icon.js"></script>
+</head>
+<body bgcolor="#E6E6FA">
+<form action="/action_page.php" target="_blank" method="GET">
+
+<div id="header">
+  <img src="capture1.jpg" width="1332" height="124" alt="Banner" id="img_banner_conteudo">
+
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="Index.html" >Home</a>
+  <a href="Secretaria.html">Secretaria</a>
+  <a href="Capelania.html">Capelania</a>
+  <a href="Perguntas.html"class="active">Perguntas</a>
+  <a href="Sobre.html">Sobre</a>
+  <a href="Login.html">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <img src="nav-icon.png">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<br>
+
+
+<aside id="sesidebar">
+<div class="mural">
+
+<div>
+<br>
+<br>
+<br>
+</div>
+<h3> Edital</h3>
+<a href="http://www.ucm.ac.mz/cms/sites/default/files/publicacoes/pdf/UCM-Edital-2018_0.pdf">
+  <img src="Edital.jpg" alt="HTML tutorial" style="width:188px;height:100px;border:0;">
+</a>
+
+<div>
+<br><br><br>
+</div>
+
+<h3> Inscrições</h3>
+<a href="http://www.ucm.ac.mz/cms/inscricoes">
+  <img src="Admissao.jpg" alt="HTML tutorial" style="width:188px;height:100px;border:0;">
+</a>
+</aside>
+</div>
+
+<section id="pemain">
+<div class=" pecontainer"> <!-- container de Secretaria -->
+
+<article id="pemain-col">
+
+<section id="perguntas" align="center">
+<center><h1 class="page-title"> Bem Vindo a Área das Perguntas</h1></center>
+        <p class="perguntas" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							<br>
+							<br>
+							<br>
+							Insira a sua questão:<input type="text" name="fname"><br>
+							Escolha o Destinatario:
+							<select name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+							<input type="submit">
+							</form>
+<br>
+
+							</p>
+							<br>
+    </section>
+<div>
+<br>
+<br>
+<br>
+</div>
+
+<div id="footer">
+  <p>Posted by: Eloge Mukuta</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+
+  font-family: 'Open Sans', sans-serif;
+
+  background:#3498db;
+
+  margin: 0 auto 0 auto;  
+
+  width:100%; 
+
+  text-align:center;
+
+  margin: 20px 0px 20px 0px;   
+
+}
+
+p{
+
+  font-size:12px;
+
+  text-decoration: none;
+
+  color:#ffffff;
+
+}
+
+h1{
+
+  font-size:1.5em;
+
+  color:#525252;
+
+}
+
+.box{
+
+  background:white;
+
+  width:300px;
+  border-radius:6px;
+</style>
+</head>
+<body>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+
+<form method="post" action="index.html">
+
+<div class="box">
+
+<h1>Dashboard</h1>
+
+<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+
+<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+
+<a href="#"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+<a href="#"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+
+</div> <!-- End Box -->
+
+</form>
+
+</body>
+</html>

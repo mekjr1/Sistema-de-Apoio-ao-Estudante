@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset = "UTF-8"/>
+<title>SOBRE</title>
+<link rel ="stylesheet" type="text/css" href="estilo.css">
+  <script src="icon.js"></script>
+
+</head>
+<body bgcolor="#E6E6FA">
+<form action="/action_page.php" target="_blank" method="GET">
+
+<div id="header" >
+<img src="capture1.jpg" width="1332" height="124" alt="Banner" id="img_banner_conteudo">
+
+
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="Index.html" class="active">Home</a>
+
+  <a href="Secretaria.html">Secretaria</a>
+  <a href="Capelania.html">Capelania</a>
+  <a href="Perguntas.html">Perguntas</a>
+  <a href ="Perfil.html">Perfil</a>
+  <a href="Sobre.html" class="active">Sobre</a>
+  <a href="Login.html">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+<br>
+<section id="sobre" align="center">
+        <h2>SOBRE</h2>
+        <p class="sobre" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							<br><br>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.</p>
+    </section>
+
+	<br>
+	<br>
+<div id="footer">
+  <p>Posted by: Eloge Mukuta</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer></div>
+</form>
+</body>
+</html>

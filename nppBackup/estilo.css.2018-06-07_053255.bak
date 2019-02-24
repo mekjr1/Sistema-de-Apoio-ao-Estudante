@@ -1,0 +1,187 @@
+/* Basics */
+
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+padding:0;
+background-color:white;
+}
+
+#footer {
+    padding: 1em;
+    color: white;
+    background-color: #35424a;
+    clear: both;
+    text-align: center;
+	min-height:100%;
+}
+
+#header{
+	padding: 1em;
+    color: white;
+    background-image: cp.jpg;
+	width:1332px; height="124" alt="Banner" id="img_banner_conteudo">
+
+    clear: left;
+    text-align: center;
+}
+
+p.sobre{
+	margin: auto;
+    width: 55%;
+    border: 3px ridge orange;
+    padding: 15px;
+	background:white;
+	clear: both;
+	min-height:100%;
+}
+
+p.perguntas{
+	margin: auto;
+    width: 55%;
+    border: 3px ridge orange;
+    padding: 15px;
+	background:white;
+	clear: both;
+	min-height:100%;
+}
+
+p.secretaria{
+    width: 100%;
+}
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.mural{
+	padding:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*NAVEGADOR*/ 
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #35424a;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: orange;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*sidebar index*/
+
+aside#sidebar{
+float:left;
+width:30%;
+margin-top:10px;
+
+}
+
+/*sidebar secretaria*/
+aside#sesidebar{
+float:left;
+width:15%;
+margin-top:10px;
+
+}
+
+
+/*global*/
+.container {
+width:65%;
+margin:auto;
+overflow:hidden;
+}
+
+/*Main col*/
+article#main-col{
+float:right;
+width:95%;
+}
+
+/*Secretaria*/
+.secontainer {
+width:60%;
+margin:auto;
+overflow:hidden;
+}
+
+/*Capelania*/
+.cacontainer {
+width:50%;
+margin:auto;
+overflow:hidden;
+}
+
+*Perguntas*/
+.pecontainer {
+width:50%;
+margin:auto;
+overflow:hidden;
+}
+
+/*media Queries*/
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+	.container
+}

@@ -1,0 +1,84 @@
+/* Basics */
+
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif;
+padding:0;
+background-color:#f4f4f4;
+}
+
+#footer {
+    padding: 1em;
+    color: white;
+    background-color: #1161ee;
+    clear: both;
+    text-align: center;
+	min-height:100%;
+}
+
+#header{
+	padding: 1em;
+    color: white;
+    background-color: lightblue;
+    clear: left;
+    text-align: center;
+}
+
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*NAVEGADOR*/ 
+
+.topnav {
+    width: 100%; /* Full-width */
+    background-color: #1161ee; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.topnav a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 12.5%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 14px; /* Increased font size */
+}
+
+.topnav a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+
+/*sidebar*/
+
+aside#sidebar{
+float:left;
+width:30%;
+margin-top:10px;
+
+}
+
+/*global*/
+.container {
+width:65%;
+margin:auto;
+overflow:hidden;
+}
+
+/*Main col*/
+article#main-col{
+float:right;
+width:95%;
+}
+
+
